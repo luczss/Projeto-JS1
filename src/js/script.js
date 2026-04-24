@@ -29,3 +29,13 @@ const desconto = 0.15; //15%
 const precofinal= precoProdouto * (1 - desconto);
 console.log(precofinal)
 console.log(`R$ ${precofinal.toFixed(2)}`);
+
+//metodos de Array
+
+const produtos =[
+    {nome:"Teclado Mecanico",preco:200,promoçao:true},
+    {nome:"Mouse Gamer",preco:300,promoçao:false},
+    {nome:"Monitor Gamer",preco:900,promoçao:true},
+    {nome:"Pad Mouse",preco:70,promoçao:false},
+]
+console.log(produtos)
