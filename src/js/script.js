@@ -22,3 +22,10 @@ const texto=titulolivro
 .join("_")//criar uma unica string e texto
 
 console.log(texto)
+
+//to fixed
+const precoProdouto= 199.99;
+const desconto = 0.15; //15%
+const precofinal= precoProdouto * (1 - desconto);
+console.log(precofinal)
+console.log(`R$ ${precofinal.toFixed(2)}`);
